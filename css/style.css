@@ -26,6 +26,12 @@ li{
     border: 2px dashed #000;
 }
 
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
 
 
 /* UTILITIES */
@@ -40,7 +46,9 @@ li{
     vertical-align: middle;
 }
 
-
+.bg-grey{
+    background-color: #D3D3D3;
+}
 /* HEADER */
 
 header{
@@ -83,3 +91,26 @@ header{
 
 /* MAIN */
 
+.big-box{
+    min-height: 500px;
+    flex-basis: 60%;
+    background-color: #1E90FF;
+}
+
+.small-box{
+    min-height: 500px;
+    flex-basis: 40%;
+    background-color: #FFC0CB;
+}
+
+.m-footer{
+    min-height: 1200px;
+}
+
+.g-box{
+    background-color: #228B22;
+    min-height: 1100px;
+    flex-basis: 100%;
+}
+
+/* FOOTER */
