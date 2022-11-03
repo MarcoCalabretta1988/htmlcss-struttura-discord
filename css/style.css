@@ -31,14 +31,17 @@ li{
     border: 2px dashed #000;
 }
 
-.flex-container{
-    display: flex;
+.flex{
+    display: flex; 
+}
+
+.flex.container{
     justify-content: center;
     align-items: center;
     min-height: var(--medium-large);
 }
 
-.flex-container-footer{
+.flex-footer{
     display: flex;
     justify-content: center;
     min-height: var(--medium-large);
@@ -123,8 +126,9 @@ header{
     background-color: #FFC0CB;
 }
 
-.m-footer{
+.main-footer{
     min-height: 1200px;
+    padding:50px;
 }
 
 .g-box{
@@ -174,13 +178,13 @@ header{
 
   /* FOOTER STYLE */
 
-.footer-up{
+.footer-top{
     background-color: #23272A;
     padding-top: 10px;
     padding-bottom: 30px;
 }
 
-.footer-down{
+.footer-bottom{
     background-color: #23272A;
     margin-top: 1px;
     padding-top: 15px;
