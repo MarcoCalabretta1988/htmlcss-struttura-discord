@@ -68,9 +68,9 @@ li{
 /* HEADER */
 
 header{
-    min-height: var(--medium-large);
+    min-height: var(--small);
     background-color: #ADD8E6;
-    padding-top: var(--small);
+    padding-top: var(--very-small);
 }
 
 .flex-item{
@@ -95,13 +95,15 @@ header{
 .jumbotron {
     background-color: #00008B;
     min-height:var(--medium);
-    padding: 50px 450px;
+    padding: 50px 0;
 }
 
 .jt-content{
     background-color: #EE82EE ;
-    min-height: var(--medium-small);
-    min-width: var(--small);
+    height: var(--medium-small);
+    width: var(--medium-large);
+    margin: 0 auto;
+
 
 }
 
